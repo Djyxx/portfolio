@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
   root: true,
   extends: [
     "eslint:recommended",
@@ -74,4 +74,4 @@ module.exports = {
     "react/prop-types": "off",
   },
   settings: { react: { version: "detect" } },
-};
+};*/
