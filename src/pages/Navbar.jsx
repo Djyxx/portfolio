@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   let Links = [
@@ -9,9 +9,10 @@ const Navbar = () => {
     { name: "", link: "/" },
   ];
   let [open, setOpen] = useState(false);
+
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-white py-4 sticky top-0">
+    <div className="shadow-md w-full ">
+      <div className="md:flex items-center justify-between py-4 sticky top-0 text-[#1e1c21] bg-[#9ad6a8]  ">
         <div className="font-bold text 2xl cursor-pointer flex items-center">
           <span className="text-3xl mr-1 pt-2">
             <ion-icon name="logo-ionic"></ion-icon>
@@ -25,7 +26,7 @@ const Navbar = () => {
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
         <ul
-          className={`md:flex md:items-center md:pb-0 pb:12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in 
+          className={`md:flex md:items-center md:pb-0 pb:12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in  
           ${
             open ? "top-20 opacity-100" : "top-20[-490px]"
           } md:opacity-100 opacity-0`}
