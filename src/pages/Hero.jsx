@@ -1,22 +1,32 @@
-import ButtonModal from "../components/ButtonModal";
+import OpenModal from "../components/OpenModal";
 
 const Hero = () => {
   return (
-    <div className="flex justify-evenly place-items-center  w-full h-screen">
-      <div className=" w-1/4">
-        <h1 className="text-7xl">
+    <div
+      id="hero"
+      className="flex flex-col md:flex-row justify-evenly items-center w-full min-h-screen px-12"
+    >
+      <div className="">
+        <h1 className="text-5xl lg:text-7xl text-center md:text-left">
           Hello,
-          <br /> I'm Djarlane Egblomasse
+          <br /> I'm Djarlane
+          <br />
+          Egblomasse
         </h1>
-        <h2 className="text-5xl mt-2 ">Fullstack developer Reactjs / Nodejs</h2>
-        <ButtonModal>My Projects</ButtonModal>
+        <h2 className="text-4xl lg:text-5xl text-center md:text-left mt-2">
+          Fullstack developer
+          <br /> Reactjs / Nodejs
+        </h2>
+        {/*<div className="flex justify-center md:justify-start mt-4 md:mt-6">
+         <OpenModal>My projects</OpenModal>
+  </div>*/}
       </div>
 
-      <div className="w-1/4">
+      <div className="mt-6 md:mt-0 ">
         <img
           alt="app picture"
-          className="w-full h-96"
-          src="https://cdn.discordapp.com/attachments/816873107464781877/1088106945887612958/23E09498-F414-459F-A76D-B3569A84CA1D.JPG"
+          className="h-[20rem] w-[20rem] bg-[#9ad6a8] rounded-full object-cover lg:h-[26rem] lg:w-[26rem]"
+          src="/assets/djyx.png"
         />
       </div>
     </div>

@@ -1,5 +1,4 @@
 import "./styles/Global.css";
-import Layout from "./components/Layout";
 import Hero from "./pages/Hero";
 import AboutMe from "./pages/AboutMe";
 import Skills from "./pages/Skills";
@@ -12,15 +11,16 @@ import Navbar from "./pages/Navbar";
 
 function App() {
   return (
-    <Layout>
+    <div className="bg-[#F6FFF8] text-[#9ad6a8]">
+      <Navbar />
       <Hero />
       <AboutMe />
       <Skills />
-      <ProjectOne />
-      <ProjectTwo />
       <Experiences />
+      <ProjectOne />
+      <Contact />
       <Footer />
-    </Layout>
+    </div>
   );
 }
 

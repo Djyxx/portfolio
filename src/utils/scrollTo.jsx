@@ -7,7 +7,7 @@ const logError = () =>
     `Invalid element, are you sure you've provided element id or react ref?`
   );
 
-const getElementPosition = (element) => element.offsetTop;
+const getElementPosition = (element) => element.offsetTop - 80;
 
 export const scrollTo = ({ id, ref = null, duration = 3000 }) => {
   // the position of the scroll bar before the user clicks the button
@@ -16,7 +16,6 @@ export const scrollTo = ({ id, ref = null, duration = 3000 }) => {
   // decide what type of reference that is
   // if neither ref or id is provided  set element to null
   const element = ref ? ref.current : id ? document.getElementById(id) : null;
-
   if (!element) {
     // log error if the reference passed is invalid
     logError();
