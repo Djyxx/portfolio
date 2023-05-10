@@ -1,5 +1,3 @@
-// ScrollToButton.jsx
-
 import React from "react";
 
 import { scrollTo } from "../utils/scrollTo";

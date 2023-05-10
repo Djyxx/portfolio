@@ -5,8 +5,8 @@ const Footer = () => {
     <footer className=" py-4 ">
       <div className="container mx-auto px-4">
         <p className="text-center text-sm">
-          &copy; {new Date().getFullYear()} Mon site web en ReactJS /
-          TailwindCSS.
+          &copy; {new Date().getFullYear()} Mon site web en ReactJS / Tailwind
+          CSS.
         </p>
       </div>
     </footer>
