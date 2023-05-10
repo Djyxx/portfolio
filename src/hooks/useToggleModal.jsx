@@ -1,5 +1,3 @@
-import React from "react";
-import ModalProjects from "../pages/ModalProjects";
 import { useState } from "react";
 
 const useToggleModal = () => {

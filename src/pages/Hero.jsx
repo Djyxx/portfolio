@@ -1,5 +1,3 @@
-import OpenModal from "../components/OpenModal";
-
 const Hero = () => {
   return (
     <div
@@ -17,9 +15,6 @@ const Hero = () => {
           Fullstack developer
           <br /> Reactjs / Nodejs
         </h2>
-        {/*<div className="flex justify-center md:justify-start mt-4 md:mt-6">
-         <OpenModal>My projects</OpenModal>
-  </div>*/}
       </div>
 
       <div className="mt-6 md:mt-0 ">
