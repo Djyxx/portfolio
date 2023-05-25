@@ -14,16 +14,18 @@ const AboutMe = () => {
       <div className="text-xl md:text-2xl xl:pr-60 lg:pr-40 md:pr-30">
         <h3 className="text-3xl font-black">Djarlane Egblomasse</h3>
         <p className="mt-4">
-          Bienvenue sur mon portfolio en tant que développeur web. Passionné et
-          rigoureux, j'ai décidé de concrétiser mon attrait pour la
-          programmation en suivant une formation intensive au cours de laquelle
-          j'ai acquis de solides compétence techniques en travaillant sur de
-          nombreux projets seul et en groupe. La pluridisciplinarité de ma
-          formation me pousse sans cesse à développer mes domaines de
-          compétences et à apprendre au contact d'autrui. Ainsi, je souhaite
-          mettre à profit mes compétence et en acquérir de nouvelles au sein
-          d'expériences professionnels enrichissantes dans lesquelles je désire
-          pleinement m'investir.
+          Je suis un développeur Front-end passionné par la création
+          d'expériences utilisateur innovantes et engageantes. Maîtrisant les
+          langages HTML, CSS et JavaScript, je crée des interfaces interactives
+          et esthétiques en utilisant des frameworks tels que React.js, Next.js
+          et TailwindCSS.
+          <br />
+          <br />
+          Je suis en mesure de développer des fonctionnalités et des éléments
+          dynamiques sur l'interface, offrant ainsi une expérience utilisateur
+          fluide et intuitive. Je suis créatif, rigoureux et j'aime résoudre les
+          problèmes pour offrir des solutions convaincantes aux utilisateurs
+          finaux.
         </p>
       </div>
     </div>

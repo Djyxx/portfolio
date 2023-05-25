@@ -9,22 +9,36 @@ const ProjectOne = () => {
       <div className="flex flex-col items-center md:pl-32">
         <div className="md:text-end text-center">
           <h2 className="text-5xl my-2 font-black">Projet</h2>
-          <h3 className="text-2xl lg:text-3xl my-2">SPOTIFY :</h3>
+          <h3 className="text-2xl lg:text-3xl my-2">
+            Clone Netflix en Front-end avec appel API:
+          </h3>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Ce projet consiste à recréer l'interface utilisateur du site Netflix
+            en utilisant HTML, CSS et JavaScript. Une API de films est intégrée
+            pour afficher des données en temps réel. Les fonctionnalités
+            incluent une page d'accueil avec des films populaires et differentes
+            catgégories de films et série, ainsi que des trailers venant de
+            Youtube quand il y'en a. Avec ce projet j'ai voulu mettre en avant
+            mes compétences en développement front-end, en manipulation de
+            données et en création d'interfaces conviviales.
           </p>
           <OpenModal>Mes projets</OpenModal>
         </div>
       </div>
       <div className="flex flex-col justify-center md:justify-start items-center md:items-start">
-        <img
-          alt="app picture"
-          className="h-[20rem] w-[20rem] rounded-full object-cover lg:h-[30rem] lg:w-[30rem]"
-          src="/assets/spotify.png"
-        />
+        <button>
+          <a
+            href="https://mynetflix-cf6b9.web.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt="Logo Netflix"
+              className="h-[15rem] w-[15rem] rounded-full object-cover lg:h-[20rem] lg:w-[20rem] md:ml-24 mt-4"
+              src="/assets/Netflix_icon.svg"
+            />
+          </a>
+        </button>
       </div>
     </div>
   );

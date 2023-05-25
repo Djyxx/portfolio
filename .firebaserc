@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "djarlane-portfolio"
-  }
+    "default": "djarlane-portfolio",
+    "dp": "djarlane-portfolio"
+  },
+  "targets": {},
+  "etags": {}
 }

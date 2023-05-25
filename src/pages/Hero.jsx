@@ -11,9 +11,9 @@ const Hero = () => {
           <br />
           Egblomasse
         </h1>
-        <h2 className="text-4xl lg:text-5xl text-center md:text-left mt-2">
-          Fullstack developer
-          <br /> ReactJS / NodeJS
+        <h2 className="font-black text-4xl lg:text-5xl text-center md:text-left mt-2">
+          Développeur Web
+          <br /> Frontend ReactJS
         </h2>
       </div>
 
