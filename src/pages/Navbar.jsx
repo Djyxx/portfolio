@@ -58,6 +58,7 @@ const Navbar = () => {
             <a
               href="https://github.com/Djyxx"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-gray-400 duration-500"
             >
               <ion-icon name="logo-github"></ion-icon>
@@ -65,6 +66,7 @@ const Navbar = () => {
             <a
               href="https://www.linkedin.com/in/djarlane-egblomasse/"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-gray-400 duration-500"
             >
               <ion-icon name="logo-linkedin"></ion-icon>

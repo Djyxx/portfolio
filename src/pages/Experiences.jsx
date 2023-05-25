@@ -9,31 +9,46 @@ const Experiences = () => {
         <div className="grid-cols-1 md:grid grid-cols-3 gap-8 ">
           <div>
             <h3 className="text-2xl lg:text-3xl my-2">
-              2022 Otobre - Decembre, Stage chez Moked:
+              Octobre 2022 - Avril 2023 (7 mois), Développeur frontend React
+              chez Moked
             </h3>
             <p className="lg:text-xl pb-4">
-              Développement de composants pour une application web ERP
-              (entreprise ressource planning)
+              - Entreprise de consulting web, qui offre des services de conseil
+              et de développement spécialisés en utilisant React : <br />
+              • Développement de composants pour une application web ERP
+              (entreprise ressource planning) <br />• Développement de
+              fonctionnalités et d'éléments dynamiques sur une interface
             </p>
           </div>
           <div>
             <h3 className="text-2xl lg:text-3xl my-2">
-              2022 Janvier - Décembre, AFPA :
+              Janvier 2021 - Avril 2022 (1 an 4 mois), Coordinateur d'évènements
+              festifs
             </h3>
             <p className="lg:text-xl pb-4">
-              Formation de Développement Web & Web Mobile : Réalisation d'une
-              application mobile en groupe avec la méthode agile et
-              l'utilisation de l'outil Notion
+              • Planification et coordination de tous les aspects de
+              l'organisation d'événements festifs.
+              <br /> • Gestion logistique, y compris la réservation de lieux.
+              <br />• Supervision de la mise en place de l'événement, en
+              veillant à ce que tout soit prêt et fonctionne correctement.
+              <br />• Gestion des budgets et des ressources pour assurer le bon
+              déroulement de l'événement.
             </p>
           </div>
           <div>
             <h3 className="text-2xl lg:text-3xl my-2">
-              2017 - 2019, Samsung Campus, Epitech :
+              2016 - 2021 (5 ans), Éducateur au CDEF de Villepinte
             </h3>
             <p className="lg:text-xl pb-4">
-              Ecole de Développement Web & Apps Coding : Réalisation d'un site
-              E-Commerce en Symfony plus collaboration avec l'ESSEC pour la
-              partie "marketing" du projet - réalisé en groupe
+              • Travailler en étroite collaboration avec les enfants, les
+              adolescents ou les adultes ayant des besoins spécifiques, tels que
+              des troubles du comportement, des handicaps physiques ou mentaux,
+              ou des difficultés d'adaptation sociale.
+              <br />• Élaborer et mettre en œuvre des plans d'intervention
+              individualisés.
+              <br />• Maintenir une documentation précise et à jour, notamment
+              des rapports d'évolution, des observations et des échanges avec
+              les personnes concernées.
             </p>
           </div>
         </div>
