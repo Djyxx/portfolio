@@ -8,9 +8,7 @@ const Skills = () => {
         <h2 className="text-5xl font-black">Compétences</h2>
         <div className="mt-12">
           <h3 className="text-3xl">Front-end</h3>
-          <p className="mt-2 text-xl">
-            NextJS, ReactJS, Formik, TailwindCSS, Axios
-          </p>
+          <p className="mt-2 text-xl">NextJS, ReactJS, TailwindCSS</p>
         </div>
         <div className="mt-12">
           <h3 className="text-3xl">Back-end</h3>
